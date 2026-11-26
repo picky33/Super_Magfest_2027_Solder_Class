@@ -3748,6 +3748,18 @@
 		(uuid "7755f9c6-717b-41ab-8c39-77ac410ddfd1")
 	)
 	(rectangle
+		(start 38.1 42.545)
+		(end 51.435 52.705)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b9ababcc-7dc9-4e3e-a5d0-199fd0f2abb0")
+	)
+	(rectangle
 		(start 126.365 12.065)
 		(end 220.345 94.615)
 		(stroke
@@ -3784,15 +3796,16 @@
 		)
 		(uuid "022a1c88-c345-4f68-9803-cb92d22b1ae6")
 	)
-	(text "*Verify Footprint"
+	(text "*Verify Switch Footprint\n11/26/26 Footprint looks good - NSH"
 		(exclude_from_sim no)
-		(at 91.948 59.436 0)
+		(at 67.31 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
+			(justify left)
 		)
 		(uuid "0ff563c0-8277-43ad-b51a-d695ee144d7a")
 	)
@@ -3866,9 +3879,9 @@
 		)
 		(uuid "68c71f82-ba60-46a3-9a09-2c7b48f0e0c9")
 	)
-	(text "*Verify Footprint\n Buzzr is 9mm, Footprint is 10mm"
+	(text "*Verify Footprint\n  Verified on 26NOV26 - NSH"
 		(exclude_from_sim no)
-		(at 264.668 132.842 0)
+		(at 265.684 132.842 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3879,15 +3892,16 @@
 		)
 		(uuid "7596d7a9-4674-4375-b369-835e8448da8a")
 	)
-	(text "*Verify Footprint"
+	(text "*Verify Footprint\nVerified On 26NOV26 - NSH"
 		(exclude_from_sim no)
-		(at 42.926 29.972 0)
+		(at 14.224 68.834 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
+			(justify left)
 		)
 		(uuid "76c56f25-e9f9-48fc-9af8-ab50ccbdfc16")
 	)
@@ -3913,6 +3927,17 @@
 			)
 		)
 		(uuid "9543ce15-7ed1-4d8b-b015-182f700dd496")
+	)
+	(text "We need to make sure the LED's are around the same Mcd.\n-26NOV26 - All around 120mcd - NSH"
+		(exclude_from_sim no)
+		(at 128.524 83.566 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0fec333-8bf0-41ce-8433-760e70003cf2")
 	)
 	(text "555 Timer for Setting Difficulty"
 		(exclude_from_sim no)
@@ -3951,6 +3976,30 @@
 		)
 		(uuid "cc97fc69-b00c-43c9-95b9-041f75cbf54b")
 	)
+	(text "4Hz is too Easy"
+		(exclude_from_sim no)
+		(at 109.982 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "cd330c77-76e4-41e4-aef3-a615bb9d1e1d")
+	)
+	(text "optional"
+		(exclude_from_sim no)
+		(at 47.244 43.688 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "cf3c44da-b167-4549-9851-93287c210268")
+	)
 	(junction
 		(at 105.41 24.13)
 		(diameter 0)
@@ -3988,12 +4037,6 @@
 		(uuid "32a13ec1-60ea-42bc-9af4-3562b09701f7")
 	)
 	(junction
-		(at 26.67 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "339dc3e0-4ed9-4ce8-89cd-81c378296919")
-	)
-	(junction
 		(at 54.61 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4028,6 +4071,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61b19dbd-284c-48f7-b4af-1a5c4a604c28")
+	)
+	(junction
+		(at 31.75 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "629732f3-43f2-472d-8b28-30d48d21ba2b")
 	)
 	(junction
 		(at 194.31 109.22)
@@ -4475,16 +4524,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 39.37) (xy 29.21 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "340b6b61-67bb-40e4-b5af-702a6765a422")
-	)
-	(wire
-		(pts
 			(xy 199.39 54.61) (xy 212.09 54.61)
 		)
 		(stroke
@@ -4505,7 +4544,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 55.88) (xy 26.67 54.61)
+			(xy 31.75 55.88) (xy 31.75 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4605,7 +4644,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 55.88) (xy 26.67 55.88)
+			(xy 41.91 55.88) (xy 31.75 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6844,7 +6883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 16.2052 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6925,7 +6964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 217.678 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -7087,7 +7126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 217.678 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -7158,7 +7197,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47u"
 			(at 45.72 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7169,7 +7208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 42.8752 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7250,7 +7289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 177.292 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -7533,7 +7572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 177.292 127 90)
 			(hide yes)
 			(show_name no)
@@ -7614,7 +7653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P10.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 190.5 113.3348 0)
 			(hide yes)
 			(show_name no)
@@ -7852,6 +7891,17 @@
 				(justify bottom)
 			)
 		)
+		(property "JLCPCB_URL" "https://www.lcsc.com/product-detail/C393948.html"
+			(at 78.74 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "7957aaa0-2cd6-4012-aba2-2048ca78ae61")
 		)
@@ -7905,7 +7955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 206.0575 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7998,7 +8048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 24.638 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -8078,7 +8128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 206.0575 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8169,7 +8219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D4.0mm"
+		(property "Footprint" "LED_THT:LED_Rectangular_W3.9mm_H1.9mm"
 			(at 206.0575 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8261,7 +8311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P10.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 214.9348 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8340,7 +8390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 46.99 113.3348 0)
 			(hide yes)
 			(show_name no)
@@ -8420,7 +8470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 197.1675 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8491,7 +8541,7 @@
 		(dnp no)
 		(uuid "6d4e9453-9bf6-426a-a5d2-f3930d88eb14")
 		(property "Reference" "R9"
-			(at 205.74 130.048 0)
+			(at 207.01 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8502,7 +8552,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 208.28 130.048 0)
+			(at 208.28 130.048 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8512,7 +8562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 207.01 127.508 90)
 			(hide yes)
 			(show_name no)
@@ -8935,7 +8985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 197.1675 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9026,7 +9076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 206.0575 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9117,7 +9167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 197.1675 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9210,7 +9260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_D14mm_H7mm_P10mm"
+		(property "Footprint" "Buzzer_Beeper:MagneticBuzzer_PUI_AT-0927-TT-6-R"
 			(at 265.43 135.8901 0)
 			(hide yes)
 			(show_name no)
@@ -9222,7 +9272,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.aliexpress.com/item/33004601553.html?spm=a2g0s.9042311.0.0.56834c4diZwZhE"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C96256.pdf"
 			(at 265.43 133.3501 0)
 			(hide yes)
 			(show_name no)
@@ -9268,6 +9318,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC_URL" "https://www.lcsc.com/product-detail/C96256.html"
+			(at 261.62 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9399,7 +9460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD4017BEE4:SOIC127P600X175-16N"
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 166.37 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9609,7 +9670,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 17.018 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -9689,7 +9750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 197.1675 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9780,7 +9841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 206.0575 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9871,7 +9932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 197.1675 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10119,6 +10180,17 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC_URL" "https://www.lcsc.com/product-detail/C5274464.html"
+			(at 31.75 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "c025194f-4a7b-4463-b7ca-66158995dbcb")
 		)
@@ -10219,7 +10291,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 55.88 0)
+		(at 31.75 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10230,7 +10302,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3dbe471-f613-4dd8-bdda-607a57d722d8")
 		(property "Reference" "#PWR01"
-			(at 26.67 62.23 0)
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10241,7 +10313,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 60.96 0)
+			(at 31.75 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10251,7 +10323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 55.88 0)
+			(at 31.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10262,7 +10334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 55.88 0)
+			(at 31.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10273,7 +10345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 55.88 0)
+			(at 31.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10305,10 +10377,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e85e17c2-eaed-43ad-b655-e1f50bf7c5bc")
 		(property "Reference" "U4"
-			(at 205.74 119.3098 0)
+			(at 199.644 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10318,7 +10389,7 @@
 			)
 		)
 		(property "Value" "ICM7555xB"
-			(at 205.74 121.8498 0)
+			(at 200.914 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10659,10 +10730,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f08c27be-1a66-4499-9dfa-21c8a473a4e9")
 		(property "Reference" "U3"
-			(at 246.38 118.0398 0)
+			(at 241.554 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10672,7 +10742,7 @@
 			)
 		)
 		(property "Value" "ICM7555xB"
-			(at 246.38 120.5798 0)
+			(at 241.554 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10749,7 +10819,7 @@
 	)
 	(symbol
 		(lib_id "BS-2450:BS-2450")
-		(at 26.67 46.99 270)
+		(at 31.75 46.99 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10757,10 +10827,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f511e199-7a74-448c-8363-ce5dc5701087")
 		(property "Reference" "BT1"
-			(at 30.48 45.0595 90)
+			(at 20.574 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10771,7 +10840,7 @@
 			)
 		)
 		(property "Value" "BS-2450"
-			(at 30.48 47.5995 90)
+			(at 20.574 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10782,7 +10851,7 @@
 			)
 		)
 		(property "Footprint" "BS-2450:BAT_BS-2450"
-			(at 26.67 46.99 0)
+			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10794,7 +10863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 46.99 0)
+			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10805,7 +10874,7 @@
 			)
 		)
 		(property "Description" "Battery Holder (Open) Coin, 24.5mm 1 Cell PC Pin"
-			(at 26.67 46.99 0)
+			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10817,7 +10886,7 @@
 			)
 		)
 		(property "MF" "MPD"
-			(at 26.67 46.99 0)
+			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10829,7 +10898,7 @@
 			)
 		)
 		(property "PACKAGE" "Non-Standard MPD"
-			(at 26.67 46.99 0)
+			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10841,7 +10910,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 26.67 46.99 0)
+			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10853,7 +10922,7 @@
 			)
 		)
 		(property "Package" "Non-Standard MPD"
-			(at 26.67 46.99 0)
+			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10865,7 +10934,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BS-2450/MPD/view-part/?ref=eda"
-			(at 26.67 46.99 0)
+			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10877,7 +10946,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 26.67 46.99 0)
+			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10889,7 +10958,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BS-2450/MPD/view-part/?ref=snap"
-			(at 26.67 46.99 0)
+			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10901,7 +10970,7 @@
 			)
 		)
 		(property "MP" "BS-2450"
-			(at 26.67 46.99 0)
+			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10913,7 +10982,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 26.67 46.99 0)
+			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10925,7 +10994,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 26.67 46.99 0)
+			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
